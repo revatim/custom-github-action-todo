@@ -1,0 +1,6 @@
+# File: .github/workflows/action.yaml
+name: 'Count ToDo Pending'
+description: 'Count the number of pending todo items in the project'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
